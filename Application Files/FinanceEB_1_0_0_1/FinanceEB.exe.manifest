@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FinanceEB.exe" version="1.0.0.1" publicKeyToken="0d7c5b312d269e41" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FinanceEB" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FinanceEB.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FinanceEB.exe" size="8664">
+      <assemblyIdentity name="FinanceEB" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MIVGUjcRZo0VbrCJvm0up9FLzyi6605/D0TkixpA9UQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="FinanceEB.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-I94V0IC\Kuru" issuerKeyHash="1d92eddd6006edc6d2052767c469fcd6fba217ce" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1iwdUs8qjzslBktOGVRElvNLWQ1G/+8lFtkSznbjJCg=</DigestValue></Reference></SignedInfo><SignatureValue>VFhh2AIcviqXUTkqsJcbXR8gJjhK53R0Yk/XWjhLns20ofqQl26kk786cEjYh6rAXdrSp3TTxVTz8zKkKAaaH9JuVUvexwIUpoNPWkKrKDFr8kEFPFwSXylXBua23hDerNVvthIsjP+0dbP/Ki2f6EeKd8Mg0UuUEgOKG6QV54M=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2ken/hJymXLwx0B0wU0Q2AYbdXjTtaspbiNIzglCyAPkAnOY1FhgIIbIq4lD5K7LwpgI8UxXMXzFZD2YbrnbZsQ4eoXBrNsCELF+mOVlggVVUsPILRKp2Cjl9RMaIxqc86Rp704sfC2cZ4ayfDEO/AUg90uoqeNXIhO+PwySwHU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2824e376ce12d91625efff460d594bf3964454194e4b06253b8f2acf521d2cd6" Description="" Url=""><as:assemblyIdentity name="FinanceEB.exe" version="1.0.0.1" publicKeyToken="0d7c5b312d269e41" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-I94V0IC\Kuru</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xe5sg/hjtDH3fQQ5hg6glvU8Kil/lAtTXdCNhN1ODHQ=</DigestValue></Reference></SignedInfo><SignatureValue>Lxu82PqM+2V2RlgxC5guNNRtcUCabS3ckaZSjjliZiO+faLKWCidcaQRRCepeCTDPoiCJUET1Xl4Pa1TR1A63HuoLbheQb8SWkxDqMqO0CbOPtyUeZwLCDKiqz36BtTIdXFEH1fAPcTBmAArtRZ4v7XKThdAWTGJO/aGoRi0Tic=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2ken/hJymXLwx0B0wU0Q2AYbdXjTtaspbiNIzglCyAPkAnOY1FhgIIbIq4lD5K7LwpgI8UxXMXzFZD2YbrnbZsQ4eoXBrNsCELF+mOVlggVVUsPILRKp2Cjl9RMaIxqc86Rp704sfC2cZ4ayfDEO/AUg90uoqeNXIhO+PwySwHU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQQHVvYa3UI7FOXQRtapEYojANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAEkAOQA0AFYAMABJAEMAXABLAHUAcgB1MB4XDTI1MDIyNDE3MTIxOFoXDTI2MDIyNDIzMTIxOFowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBJADkANABWADAASQBDAFwASwB1AHIAdTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA2ken/hJymXLwx0B0wU0Q2AYbdXjTtaspbiNIzglCyAPkAnOY1FhgIIbIq4lD5K7LwpgI8UxXMXzFZD2YbrnbZsQ4eoXBrNsCELF+mOVlggVVUsPILRKp2Cjl9RMaIxqc86Rp704sfC2cZ4ayfDEO/AUg90uoqeNXIhO+PwySwHUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQDU3W3oCVdQN/2IN3u7iGcmWR6MJLfjQoYkmwsDZFxzfhPnUEIRrwf/NYGtq+FI24YVHEVjGDWoXhg1jjOIQM/x+6lNyZUNxeocwHZiphjG35uWQQou78HqfpqLo85ctWo59Pp0qpCS9AIXQfxdcpOCjfIvSRKw1AcYtF0nZZfg6A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
